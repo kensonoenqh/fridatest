@@ -41,7 +41,7 @@ cd data/local/tmp
 now on the host pc, I can start the frida-fuzzer.
 
 ```
-./frida-fuzzre -U -o output_folder/1 com.example.login
+./frida-fuzzer -U -o output_folder/1 com.example.login
 ```
 
 ## non default seed
