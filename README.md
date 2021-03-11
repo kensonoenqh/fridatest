@@ -54,11 +54,11 @@ for those attempts with non default seeds, I used a different command instead:
 ```
 
 ## output
-In all cases where the fuzzer runs properly, the output generated is a access-violation at a random address location.
+In all cases where the fuzzer runs properly, the output generated is a access-violation at a random address location. The program always crashes at "init".
 
 ![output](/frida_output.png)
 
-#other details
-the same crash output is return even if the android project is compiled wihout ASAN.
+# other details
+the same crash output is returned even if the android project is compiled wihout ASAN.
 
 
